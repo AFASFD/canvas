@@ -80,6 +80,7 @@ function drawLine(x1, y1, x2, y2) {
     content.moveTo(x1, y1)
     content.lineWidth = lineWidth
     content.lineTo(x2, y2)
+    content.lineCap = 'round';
     content.stroke()
     content.closePath()
 }
